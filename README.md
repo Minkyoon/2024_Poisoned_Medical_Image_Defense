@@ -1,4 +1,4 @@
-# 📌 Medical Image Contamination Detection & Model Enhancement
+# 📌 Robust Medical Image Model Against Data Contamination
 **Yonsei University Digital Healthcare Cybersecurity Competition - 2nd Place Winner 🏆**
 
 ## 🏥 Project Overview
@@ -13,13 +13,6 @@ We utilized a dataset of **5,000 chest X-ray images** with various contamination
 - **Noise Addition**: Random noise artifacts affecting image quality.
 - **Label Errors**: Mislabeling of medical images, causing model confusion.
 - **Poison Attacks**: Intentional data corruption designed to degrade model performance.
-
-### 🖼️ Examples of Data Contamination
-| Noise Addition | Poison Attack | Label Error |
-|---------------|--------------|-------------|
-| ![Noise Example](./figure/noise_example.png) | ![Poison Example](./figure/poison_example.png) | ![Label Error Example](./figure/label_error.png) |
-
----
 
 ## 🔬 Methodology
 ### **1️⃣ Model Architecture**
@@ -96,6 +89,7 @@ python train.py
 
 4️⃣ Evaluate on Test Data
 python evaluate.py
+'''
 
 
 ## 🤝 Acknowledgments
