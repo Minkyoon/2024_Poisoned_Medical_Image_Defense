@@ -62,8 +62,7 @@ We introduce a **Combined Performance Drop Metric**, which measures robustness b
 Drop_M = (M_normal - M_attack) / M_normal * 100
 
 
-📌 **Performance Drop Visualization**  
-![Performance Drop](./figure/performance_drop.png)
+
 
 ---
 
@@ -74,23 +73,38 @@ Drop_M = (M_normal - M_attack) / M_normal * 100
 
 ---
 
-## 🛠 Installation & Usage
 ### **1️⃣ Clone the Repository**
+Clone the repository and navigate to the project directory:
+
 ```bash
-git clone https://github.com/your-username/medical-image-contamination.git
-cd medical-image-contamination
+git clone https://github.com/minkyoon/2024_Poisoned_Medical_Image_Defense.git
+cd 2024_Poisoned_Medical_Image_Defense
+```
 
+### **2️⃣ Install Dependencies**
+Install the required Python packages:
 
-2️⃣ Install Dependencies
+```bash
 pip install -r requirements.txt
+```
 
-3️⃣ Train the Model
+### **3️⃣ Train the Model**
+Run the training script:
+
+```bash
 python train.py
+```
 
-4️⃣ Evaluate on Test Data
+### **4️⃣ Evaluate on Test Data**
+Evaluate the trained model:
+
+```bash
 python evaluate.py
-'''
+```
 
+---
 
 ## 🤝 Acknowledgments
-This work was developed as part of the Yonsei Digital Healthcare Cybersecurity Competition 2024, where our team won 2nd place. Special thanks to my teammates and the organizing committee.
+This work was developed as part of the **Yonsei Digital Healthcare Cybersecurity Competition 2024**, where our team won **2nd place**.  
+Special thanks to my teammates and the organizing committee for their support and collaboration.
+
